@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Infinity Row</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/infinityRow.js"></script>
+        <script type="text/javascript">
+            ($(function() {
+                $('.infinity-row').infinityRow({
+                    items: '.item',
+                    fallback: true
+                });
+            }));
+        </script>
+    </head>
+    <body>
+        <div class="title">
+            <div class="container">
+                <h1>Infinity Row</h1>
+                <p>
+                    Inspired by the featured sessions component on the <a href="https://events.google.com/io2015/" target="_blank">Google I/O 2015 website</a>.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <a class="backward" data-trigger="row-backward" href="#">&larr;</a>
+            <a class="forward" data-trigger="row-forward" href="#">&rarr;</a>
+            <div class="infinity-row">
+                <div class="item">
+                    <div class="block"></div>
+                </div>
+                <div class="item">
+                    <div class="block"></div>
+                </div>
+                <div class="item">
+                    <div class="block"></div>
+                </div>
+                <div class="item">
+                    <div class="block"></div>
+                </div>
+                <div class="item">
+                    <div class="block"></div>
+                </div>
+                <div class="item">
+                    <div class="block"></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
