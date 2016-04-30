@@ -17,7 +17,7 @@ Checkout the `example.html` file for an example setup.
 #### Flexbox CSS styles
 This plugin relies on the correct CSS settings being applied on the row element and its items to work correctly. 
 
-For better flexibility when inserting into your project these CSS styles aren't added via jQuery, you'll need to either copy these directly from the `dist/core.css` file or add them to your stylesheet.
+For better flexibility when inserting into your project these CSS styles aren't added via jQuery, you'll need to either copy these directly from the `dist/css/core.css` file or add them to your stylesheet.
 
 ## Config options
 Option | Type | Default | Notes
