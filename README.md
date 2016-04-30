@@ -22,7 +22,8 @@ items | `string` | `div` |The items inside your row you'd like to move.
 row_backward | `string` | `null` | The element you want to apply the row backward action.
 row_forward | `string` | `null` | The element you want to apply the row forward action.
 resize | `boolean` | `true` | Set to true if you'd like to refresh the slider's layout on resize.
-fallback | `boolean` | `false`  | Set to true if you'd like to support browsers without Flexbox support.*
+fallback | `boolean` | `false`  | Set to true if you'd like to support browsers without Flexbox support.
 
-* If `fallback` is set to true, you must include either the `js/modernizr.custom.js` file or your own modernizr compile for Flexbox feature detection. 
+#### Flexbox fallback
+If `fallback` is set to true, you must include either the `js/modernizr.custom.js` file or your own modernizr compile for Flexbox feature detection. 
 
