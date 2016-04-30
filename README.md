@@ -5,13 +5,15 @@ Inspired by the featured sessions component on the [Google I/O 2015 website](htt
 
 ## How to
 ####Simple setup
-Just initialize the plugin on a parent row element, passing in the items & button selectors.
+Make sure to load jQuery and the plugin file `dist/js/infinityRow.js`.
+Initialize the plugin on a parent row element, passing in the items & button selectors as shown below.
 ```js
 $('#row > .infinity-row').infinityRow({
   items: '.item',
   row_forward: '#row > .forward',
   row_backward: '#row > .backward'
 });
+
 ```
 Checkout the `example.html` file for an example setup.
 #### Flexbox CSS styles
