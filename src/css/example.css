@@ -21,13 +21,18 @@ h1 {
     margin: 0 0 20px;
 }
 
+h3 {
+    font-size: 22px;
+    margin: 0 0 20px;
+}
+
 .container {
     max-width: 1300px;
     padding: 20px;
     margin: 0 auto;
 }
 
-/* Infinity Row */
+/* InfinityRow */
 
 .infinity-row {
     -ms-flex-direction: row;
@@ -46,6 +51,16 @@ h1 {
     -ms-flex-shrink: 0;
     -webkit-flex-shrink: 0;
 }
+
+#row-2 .item {
+  width: 220px;
+  padding-right: 10px;
+}
+
+#row-2 .item .block {
+  height: 220px;
+}
+
 
 .item .block {
     height: 260px;
