@@ -13,7 +13,7 @@ $('#row > .infinity-row').infinityRow({
   row_backward: '#row > .backward'
 });
 ```
-Checkout the `example.html` for an example setup.
+Checkout the `example.html` file for an example setup.
 #### Flexbox CSS styles
 This plugin relies on the correct CSS settings being applied on the row element and its items to work correctly. 
 
