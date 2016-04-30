@@ -1,4 +1,4 @@
-# Infinity Row
+# InfinityRow
 A jQuery slider plugin for infinite length sliding rows. The plugin uses CSS flexbox to align items inside a row horizontally allowing the row to bleed off the screen.
 
 Inspired by the featured sessions component on the [Google I/O 2015 website](https://events.google.com/io2015/).
@@ -13,7 +13,7 @@ $('#row > .infinity-row').infinityRow({
   row_backward: '#row > .backward'
 });
 ```
-
+Checkout the `example.html` for an example setup.
 #### Flexbox CSS styles
 This plugin relies on the correct CSS settings being applied on the row element and its items to work correctly. 
 
